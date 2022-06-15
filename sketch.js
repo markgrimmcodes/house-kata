@@ -3,7 +3,7 @@ function setup() {
 }
 
 function draw() {
-  background(220);
+  background((mouseY / 400) * 255);
   triangle(40, 200, 360, 200, 200, 30);
   rect(50, 200, 300, 150);
 }
